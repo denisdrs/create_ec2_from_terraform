@@ -1,30 +1,6 @@
 
 # Upload de uma Imagem Docker para o Docker Hub
 
-Primeiro, vamos provisionar a infraestrutura utilizando a AWS.
-
-No diretório `upload_to_dockerhub`, execute os seguintes comandos:
-
-## Inicialize o Terraform
-
-```bash
-terraform init
-```
-
-## Verifique o plano de execução
-
-```bash
-terraform plan
-```
-
-## Aplique o plano para provisionar a infraestrutura
-
-```bash
-terraform apply
-```
-
-**Observação:** Certifique-se de que as credenciais da AWS estão configuradas previamente na CLI para garantir a autenticação adequada.
-
 ## Passos para Upload da Imagem no Docker Hub
 
 1. **Crie a Imagem Docker**  
